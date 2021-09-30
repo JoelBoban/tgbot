@@ -146,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="📞 Contact my owner", url="https://t.me/joel_boban".format(bot.username)),  InlineKeyboardButton(text="യൂട്യൂബിൽ ഓപ്പൺ അക്കാൻ 🤣", url="https://www.youtube.com")],
+                    [[InlineKeyboardButton(text="📞 Contact my owner", url="https://t.me/joel_boban".format(bot.username)),  InlineKeyboardButton(text="യൂട്യൂബ് ഓപ്പൺ അക്കാൻ 🤣", url="https://www.youtube.com")],
                      [InlineKeyboardButton(text="👥 Our Group", url="https://t.me/askmecinema"), InlineKeyboardButton(text="🔔 Telegram Channel", url="https://t.me/askmecinemachannel")],
                      [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://youtube.com/channel/UC3iabIBxfeO9bN2MExB13kA"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
